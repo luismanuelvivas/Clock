@@ -6,11 +6,14 @@
 body{
     background:linear-gradient(to left,rgb(82, 0, 106),rgb(205, 17, 59));
     display:flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     min-height:100vh;
     overflow:hidden;
 }
+
+h1{color:white}
 
 .clock{
     width:300px;
@@ -72,7 +75,7 @@ body{
 .clock .hand.second{
     width:3px;
     height:45%;
-    background:red;
+    background:lightgreen;
 }
 
 .clock .hand.minute{
